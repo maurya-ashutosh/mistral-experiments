@@ -1,0 +1,145 @@
+{
+    "model_version": "v0.2.Q4_K_M",
+    "system_content": "You are a entity extraction expert",
+    "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `Acknowledgement Number:373299880060723\nDate of filing : 06-Jul-2023\nINDIAN INCOME TAX RETURN ACKNOWLEDGEMENT\n[Where the data of the Return of Income in Form ITR-1(SAHAJ), ITR-2, ITR-3, ITR-4(SUGAM), ITR-5, ITR-6, ITR-7\nfiled and verified]\n(Please see Rule 12 of the Income-tax Rules, 1962)\nAssessment\nYear\n2023-24\nFDDPM0811A Name TUSHAR MAURYA AddressA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi, 91-\nINDIA, 110062\nStatus Individual Form Number ITR-1 Filed u/s 139(1)-On or before due date e-Filing Acknowledgement Number 373299880060723\n\nIncome Tax Return submitted electronically on\nand veri\ufb01ed by\nTUSHAR MAURYA\n06-Jul-2023 16:10:32\nhaving PAN\npaper ITR-Veri\ufb01cation Form /Electronic Veri\ufb01cation Code\nfrom IP address\nFDDPM0811A\n7UWE5YJQLI\non\ngenerated through\n0\n103.203.253.47\n06-Jul-2023\nusing\nAadhaar OTP\nmode`",
+    "response_content": {
+        "Acknowledgement Number": "373299880060723",
+        "Date of Filing": "06-Jul-2023",
+        "Type of Document": "INDIAN INCOME TAX RETURN ACKNOWLEDGMENT",
+        "Assessment Year": "2023-24",
+        "Name": "TUSHAR MAURYA",
+        "Address": {
+            "Street": "15 3RD FLOOR, DUGGAL COLONY, KHANPUR",
+            "City": "Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi",
+            "Country": "India",
+            "Postal Code": "110062"
+        },
+        "Form Number": "ITR-1",
+        "Filing Status": "Filed u/s 139(1)-On or before due date",
+        "E-Filing Acknowledgement Number": "373299880060723",
+        "IP Address": "FDDPM0811A",
+        "Verification Code": "7UWE5YJQLI",
+        "Pan Number": "",
+        "OTP Mode": "Aadhaar OTP",
+        "Timestamp of Filing and Verification": "06-Jul-2023 16:10:32"
+    }
+}{
+    "model_version": "v0.2.Q3_K_L",
+    "system_content": "You are a entity extraction expert",
+    "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `Acknowledgement Number:373299880060723\nDate of filing : 06-Jul-2023\nINDIAN INCOME TAX RETURN ACKNOWLEDGEMENT\n[Where the data of the Return of Income in Form ITR-1(SAHAJ), ITR-2, ITR-3, ITR-4(SUGAM), ITR-5, ITR-6, ITR-7\nfiled and verified]\n(Please see Rule 12 of the Income-tax Rules, 1962)\nAssessment\nYear\n2023-24\nFDDPM0811A Name TUSHAR MAURYA AddressA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi, 91-\nINDIA, 110062\nStatus Individual Form Number ITR-1 Filed u/s 139(1)-On or before due date e-Filing Acknowledgement Number 373299880060723\n\nIncome Tax Return submitted electronically on\nand veri\ufb01ed by\nTUSHAR MAURYA\n06-Jul-2023 16:10:32\nhaving PAN\npaper ITR-Veri\ufb01cation Form /Electronic Veri\ufb01cation Code\nfrom IP address\nFDDPM0811A\n7UWE5YJQLI\non\ngenerated through\n0\n103.203.253.47\n06-Jul-2023\nusing\nAadhaar OTP\nmode`",
+    "response_content": {
+        "Acknowledgement Number": "373299880060723",
+        "Date of Filing": "06-Jul-2023",
+        "Document Type": "Income Tax Return Acknowledgement",
+        "Forms Filed": [
+            "ITR-1"
+        ],
+        "Assessment Year": "2023-24",
+        "Filer Name": "TUSHAR MAURYA",
+        "Address": {
+            "Line 1": "15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur",
+            "City": "South Delhi",
+            "Post Office": "Pushpa Bhawan S.O",
+            "District": "Delhi",
+            "Country": "India",
+            "Pin Code": "110062"
+        },
+        "Filing Status": "Filed u/s 139(1) - On or before due date e-Filing",
+        "Verifier Name": "TUSHAR MAURYA",
+        "IP Address": "103.203.253.47",
+        "OTP Verification Mode": "Aadhaar OTP"
+    },
+    "time_taken": 211.31024312973022
+}{
+    "model_version": "v0.2.Q3_K_L",
+    "system_content": "You are an entity extraction expert",
+    "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `I Ashutosh Maurya, S/O,D/O,W/O BK Maurya\nAge:24, Resident of H.NoA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, Warangal Urban district,\nTelangana State, INDIA, (Aadhar Card No 1234 1234 1234) do hereby solemnly affirm\nand state on oath as under:\n1. I am not having children who are Govt. Employee / Private sector employment / Private /\nOutsourced / Govt. Pensioner / Freedom Fighter pension.\n\n2. I am not having large business Enterprise like oil mills, rice mills, petrol pumps, rig owners,\nshop owner etc.\n\n3. I am not Owners of light and/or heavy automobiles (four wheelers and big vehicles.)\n4. I am not having land more than 3.0 acres wet/irrigated dry or 7.5 acres dry.\n5. I am not any other criterion in which the verification officer may assess by the manner of\nlifestyle, occupation and possession of assets rendering the households as ineligible.\n That the above facts are true in future if it is proved false I have no objection if my sanctioned\npension is cancelled more over I shall return all the pension amount which I obtained from the\nGovernment by my false representation.\nDate:-12/2/2023`",
+    "response_content": {
+        "Name": "Ashutosh Maurya",
+        "Father's Name": "BK Maurya",
+        "Address": {
+            "Street": "H.No A 15 3RD FLOOR",
+            "Colony": "DUGGAL COLONY",
+            "City": "Khanpur",
+            "District": "Warangal Urban",
+            "State": "Telangana",
+            "Country": "INDIA"
+        },
+        "Aadhar Card Number": "1234 1234 1234",
+        "City": "Khanpur",
+        "District": "Warangal Urban",
+        "State": "Telangana"
+    },
+    "time_taken": 104.1737973690033
+}{
+    "model_version": "v0.2.Q4_K_M",
+    "system_content": "You are an entity extraction expert",
+    "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `I Ashutosh Maurya, S/O,D/O,W/O BK Maurya\nAge:24, Resident of H.NoA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, Warangal Urban district,\nTelangana State, INDIA, (Aadhar Card No 1234 1234 1234) do hereby solemnly affirm\nand state on oath as under:\n1. I am not having children who are Govt. Employee / Private sector employment / Private /\nOutsourced / Govt. Pensioner / Freedom Fighter pension.\n\n2. I am not having large business Enterprise like oil mills, rice mills, petrol pumps, rig owners,\nshop owner etc.\n\n3. I am not Owners of light and/or heavy automobiles (four wheelers and big vehicles.)\n4. I am not having land more than 3.0 acres wet/irrigated dry or 7.5 acres dry.\n5. I am not any other criterion in which the verification officer may assess by the manner of\nlifestyle, occupation and possession of assets rendering the households as ineligible.\n That the above facts are true in future if it is proved false I have no objection if my sanctioned\npension is cancelled more over I shall return all the pension amount which I obtained from the\nGovernment by my false representation.\nDate:-12/2/2023`",
+    "response_content": {
+        "Name": "Ashutosh Maurya",
+        "Parentage": "Son of BK Maurya",
+        "Residence": {
+            "Colony": "DUGGAL COLONY",
+            "Area": "Khanpur",
+            "District": "Warangal Urban district",
+            "State": "Telangana",
+            "Country": "India",
+            "House Number": "A15 3RD FLOOR",
+            "Postal Code": null
+        },
+        "Age": 24,
+        "Aadhar Card Number": "1234 1234 1234",
+        "Declaration": {
+            "Statement": [
+                {
+                    "Condition": "I am not having children who are Govt. Employee / Private sector employment / Private / Outsourced / Govt. Pensioner / Freedom Fighter pension.",
+                    "Status": null
+                },
+                {
+                    "Condition": "I am not having large business Enterprise like oil mills, rice mills, petrol pumps, rig owners, shop owner etc.",
+                    "Status": null
+                },
+                {
+                    "Condition": "I am not Owners of light and/or heavy automobiles (four wheelers and big vehicles).",
+                    "Status": null
+                },
+                {
+                    "Condition": "I am not having land more than 3.0 acres wet/irrigated dry or 7.5 acres dry.",
+                    "Status": null
+                },
+                {
+                    "Condition": "That the above facts are true in future",
+                    "Status": null
+                },
+                {
+                    "Consequence": "if it is proved false I have no objection if my sanctioned pension is cancelled more over I shall return all the pension amount which I obtained from the Government by my false representation.",
+                    "Status": null
+                }
+            ],
+            "Date": "12/2/2023"
+        }
+    },
+    "time_taken": 154.9376015663147
+}{
+    "model_version": "v0.2.Q5_K_L",
+    "system_content": "You are an entity extraction expert",
+    "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `I Ashutosh Maurya, S/O,D/O,W/O BK Maurya\nAge:24, Resident of H.NoA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, Warangal Urban district,\nTelangana State, INDIA, (Aadhar Card No 1234 1234 1234) do hereby solemnly affirm\nand state on oath as under:\n1. I am not having children who are Govt. Employee / Private sector employment / Private /\nOutsourced / Govt. Pensioner / Freedom Fighter pension.\n\n2. I am not having large business Enterprise like oil mills, rice mills, petrol pumps, rig owners,\nshop owner etc.\n\n3. I am not Owners of light and/or heavy automobiles (four wheelers and big vehicles.)\n4. I am not having land more than 3.0 acres wet/irrigated dry or 7.5 acres dry.\n5. I am not any other criterion in which the verification officer may assess by the manner of\nlifestyle, occupation and possession of assets rendering the households as ineligible.\n That the above facts are true in future if it is proved false I have no objection if my sanctioned\npension is cancelled more over I shall return all the pension amount which I obtained from the\nGovernment by my false representation.\nDate:-12/2/2023`",
+    "response_content": {
+        "Name": "Ashutosh Maurya",
+        "Parents": {
+            "Father": "BK Maurya"
+        },
+        "Address": {
+            "Colony": "Duggal Colony",
+            "Locality": "Khanpur",
+            "City": "Warangal Urban district",
+            "State": "Telangana",
+            "Country": "India",
+            "House Number": "A 15 3RD FLOOR"
+        },
+        "Identification": {
+            "Aadhar Card Number": "1234 1234 1234"
+        }
+    },
+    "time_taken": 104.87230205535889
+}{"model_version": "Q5_K_M", "system_content": "You are an entity extraction expert", "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `Acknowledgement Number:373299880060723\nDate of filing : 06-Jul-2023\nINDIAN INCOME TAX RETURN ACKNOWLEDGEMENT\n[Where the data of the Return of Income in Form ITR-1(SAHAJ), ITR-2, ITR-3, ITR-4(SUGAM), ITR-5, ITR-6, ITR-7\nfiled and verified]\n(Please see Rule 12 of the Income-tax Rules, 1962)\nAssessment\nYear\n2023-24\nFDDPM0811A Name TUSHAR MAURYA AddressA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi, 91-\nINDIA, 110062\nStatus Individual Form Number ITR-1 Filed u/s 139(1)-On or before due date e-Filing Acknowledgement Number 373299880060723\n\nIncome Tax Return submitted electronically on\nand veri\ufb01ed by\nTUSHAR MAURYA\n06-Jul-2023 16:10:32\nhaving PAN\npaper ITR-Veri\ufb01cation Form /Electronic Veri\ufb01cation Code\nfrom IP address\nFDDPM0811A\n7UWE5YJQLI\non\ngenerated through\n0\n103.203.253.47\n06-Jul-2023\nusing\nAadhaar OTP\nmode`", "response_content": {"Acknowledgement Number": "373299880060723", "Date of Filing": "06-Jul-2023", "Type of Document": "INDIAN INCOME TAX RETURN ACKNOWLEDGMENT", "Assessment Year": "2023-24", "Address": {"Street": "15 3RD FLOOR, DUGGAL COLONY, KHANPUR", "City": "Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi", "Country": "India", "Postal Code": "110062"}, "Filer Name": "TUSHAR MAURYA", "Form Number": "ITR-1", "Submitted under": "Section 139(1)", "Status": "Individual", "IP Address": "FDDPM0811A", "Verification Code": "7UWE5YJQLI", "Filing and Verification Time": {"Date": "06-Jul-2023", "Time": "16:10:32"}, "PAN": ""}, "time_taken": 152.6600193977356}{"model_version": "Q5_K_M", "system_content": "You are an entity extraction expert", "user_prompt": "Given the text in backticks, extract all important entities in a key-value fashion and return in json format. Text: `Acknowledgement Number:373299880060723\nDate of filing : 06-Jul-2023\nINDIAN INCOME TAX RETURN ACKNOWLEDGEMENT\n[Where the data of the Return of Income in Form ITR-1(SAHAJ), ITR-2, ITR-3, ITR-4(SUGAM), ITR-5, ITR-6, ITR-7\nfiled and verified]\n(Please see Rule 12 of the Income-tax Rules, 1962)\nAssessment\nYear\n2023-24\nFDDPM0811A Name TUSHAR MAURYA AddressA 15 3RD FLOOR, DUGGAL COLONY, KHANPUR, Khanpur, SOUTH DELHI, Pushpa Bhawan S.O, 09-Delhi, 91-\nINDIA, 110062\nStatus Individual Form Number ITR-1 Filed u/s 139(1)-On or before due date e-Filing Acknowledgement Number 373299880060723\n\nIncome Tax Return submitted electronically on\nand veri\ufb01ed by\nTUSHAR MAURYA\n06-Jul-2023 16:10:32\nhaving PAN\npaper ITR-Veri\ufb01cation Form /Electronic Veri\ufb01cation Code\nfrom IP address\nFDDPM0811A\n7UWE5YJQLI\non\ngenerated through\n0\n103.203.253.47\n06-Jul-2023\nusing\nAadhaar OTP\nmode`", "response_content": {"Acknowledgement Number": "373299880060723", "Date of Filing": "06-Jul-2023", "Return Type": "INDIAN INCOME TAX RETURN ACKNOWLEDGEMENT", "Assessment Year": "2023-24", "Address": {"Street": "15 3RD FLOOR, DUGGAL COLONY, KHANPUR", "City": "Khanpur, SOUTH DELHI", "State": "Pushpa Bhawan S.O, 09-Delhi", "Country": "India", "Postal Code": "110062"}, "Status": "Individual", "Form Number": "ITR-1", "Submitted by": "TUSHAR MAURYA", "Filed under section": "139(1)", "Verified by": "TUSHAR MAURYA", "Filing Time": "06-Jul-2023 16:10:32", "IP Address": "FDDPM0811A", "E-Verification Code": "7UWE5YJQLI", "OTP Verification Method": "Aadhaar"}, "time_taken": 151.24419784545898}
