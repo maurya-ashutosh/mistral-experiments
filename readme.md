@@ -13,4 +13,4 @@
 
 ## Todo
 
-- Currently inference running on CPU. Do it on GPU
+- ~~Currently inference running on CPU. Do it on GPU~~
