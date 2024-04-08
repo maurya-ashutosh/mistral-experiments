@@ -9,7 +9,7 @@
 ## Key Takeaways
 
 - `llama-cpp` is used for optimized implementation of LLM inference.
-- 
+- `response_logs.json` contains the responses for various inputs and parameters. 
 
 ## Todo
 
